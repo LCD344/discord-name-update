@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'discord' => [
+        'user_token' => env('DISCORD_ACCESS_TOKEN'),
+        'app_id' => env('DISCORD_APP_ID'),
+        'client_secret' => env('DISCORD_APP_SECRET_KEY'),
+        'server_id' => env('DISCORD_SERVER_ID')
+    ]
 ];
